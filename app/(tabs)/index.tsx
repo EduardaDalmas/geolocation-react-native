@@ -20,8 +20,6 @@ export default function TabOneScreen() {
 
     setLatitude(location.coords.latitude);
     setLongitude(location.coords.longitude);
-
-    const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
   }
 
   return (
