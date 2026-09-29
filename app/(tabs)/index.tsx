@@ -12,7 +12,7 @@ export default function TabOneScreen() {
     const { status } = await Location.requestForegroundPermissionsAsync();
 
     if (status !== "granted") {
-      alert("Permissão de localização negada");
+      alert("Permissão de localização negada!");
       return;
     }
 
